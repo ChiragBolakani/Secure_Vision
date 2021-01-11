@@ -19,8 +19,7 @@ def capFunc(*args):
     colors = np.random.uniform(0, 255, size=(len(classes), 3))
 
     # load image
-    cap = cv2.VideoCapture(0)   
-
+    cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)   
 
     frame_width = int(cap.get(3)) 
     frame_height = int(cap.get(4)) 

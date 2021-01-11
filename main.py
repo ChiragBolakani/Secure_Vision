@@ -7,7 +7,6 @@ import cctvlog
 from PIL import ImageTk ,Image
 import subprocess, sys
 import os
-# import vlc
 
 # creates a Tk() object 
 master = Tk() 
@@ -18,7 +17,7 @@ style = Style()
 master.geometry("400x400") 
 master.title('Smart-Vision')
 master.configure(background = 'lightblue')
-master.attributes("-zoomed", True)
+master.attributes("-fullscreen", True)
 
 def exit():
 	sys.exit()
@@ -27,8 +26,9 @@ def log_window():
 	cctvlog.generate_log()
 
 def play():
-	opener ="open" if sys.platform == "darwin" else "xdg-open"
-	subprocess.call([opener, 'filename.avi'])
+	# opener ="open" if sys.platform == "darwin" else "xdg-open"
+	# subprocess.call([opener, 'filename.avi'])
+	os.startfile('filename.avi')
 
 style.configure('W.TButton', font =
                ('calibri', 20, 'bold'), 
