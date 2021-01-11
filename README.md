@@ -15,10 +15,11 @@ All the necessary python modules and libraries are mentioned in **requirements.t
 Wohoo! You are done with the environment setup, it's time to test it now.
 ## Usage
 - Run the below file and see the results by yourself.
-- When the main window appears, click on 'Show Log' button to see the log file.
  ```python
-main.py
+python main.py
 ```
+- When the main window appears, click on 'Show Log' button to see the log file.
+
 ![Screenshot from 2021-01-10 10-31-35](https://user-images.githubusercontent.com/62014238/104116094-85ecda00-533b-11eb-8b8c-c54dd97445f6.png)
 ![Screenshot from 2021-01-10 10-37-06](https://user-images.githubusercontent.com/62014238/104116101-9a30d700-533b-11eb-838e-7937415c22ad.png)
 ![Screenshot from 2021-01-10 10-45-47](https://user-images.githubusercontent.com/62014238/104116114-c187a400-533b-11eb-870f-d0178f3a9246.png)
